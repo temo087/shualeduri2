@@ -1,0 +1,109 @@
+@media(width >= 768px){
+    .back{
+        margin-left: 45px;
+    }
+    main{
+        height: 436px;
+    }
+    .lol{
+        display: inline-flex;
+    height: 268px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 68px;
+    flex-shrink: 0;
+    margin-top: 88px;
+    }
+    h4{
+        width: 223px;
+        font-size: 55px;
+        line-height: 50px;
+        margin-top: 0;
+    }
+    h2{
+        width: 350px;
+        font-size: 32px;
+        line-height: 32px; 
+        margin-top: 0;
+    }
+    h3{
+        width: 398px;
+        font-size: 18px;
+        line-height: 28px; 
+        margin-top: 20px;
+    }
+    footer{
+        height: 216px;
+        padding-top: 56px 40px;
+        flex-direction: row;
+    }
+    .ooo{
+        flex-direction: row;
+        width: 689px;
+    height: 104px;
+    }
+    .marjvena{
+        margin-left: -65px;
+        width: 110.05px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 0;
+    }
+    h6{
+        width: 281px;
+        margin-top: -40px;
+        margin-left: 105px;
+    }
+    .italia{
+        margin-left: 150px;
+    }
+    .icons1{
+        margin-left: 63px;
+        margin-top: -16px;
+    }
+}
+
+
+
+
+
+@media(width >= 1440px){
+    .back{
+        width: 208px;
+height: 72px;
+flex-shrink: 0;
+margin-left: 165px;
+    }
+    main{
+        height: 548px;
+    }
+    .lol{
+        width: 1110px;
+    height: 316px;
+    flex-shrink: 0;
+    margin-top: 104px;
+    }
+    .rame{
+        margin-left: 220px;
+    }
+    h4{
+        width: 350px;
+        font-size: 70px;
+        line-height: 70px
+    }
+    h2{
+        width: 350px;
+        font-size: 36px;
+        line-height: 36px
+    }
+    h3{
+        width: 540px;
+        font-size: 22px;
+        line-height: 32px
+    }
+    footer{
+        height: 216px;
+        justify-content: space-between;
+    }
+
+}

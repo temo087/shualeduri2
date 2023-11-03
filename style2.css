@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black: #151515  ;
+    --yellow: #D5966C ;
+    --grey:  #444444  ;
+    --white:#FFFFFF   ;
+
+}
+body{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+}
+header{
+    height: 574px;
+    width: 100%;
+    background-image: url(assets/Map.svg);
+    background-position: center;
+}
+.nishani{
+    width: 66px;
+height: 88px;
+    margin-top: 239px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.btn1{
+    width: 204px;
+    height: 76px;
+    flex-shrink: 0;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "Big Shoulders Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.636px;
+    margin-left: 50px;
+    margin-left: 50px;
+    margin-top: -6px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.ragac{
+    width: 56px;
+    height: 72px;
+    flex-shrink: 0;
+    rotate: 180deg;
+    position: absolute;
+    margin-top: -2px;
+}
+.back{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+}
+h1{
+    color: var(--black);
+font-family: 'Big Shoulders Display';
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: 55px; /* 91.667% */
+text-transform: uppercase;
+width: 343px;
+margin-top: 32px;
+}
+main{
+width: 100%;
+height: 493px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+background-color: var(--black);
+}
+.lol{
+    width: 375px;
+    height: 493px;
+    flex-shrink: 0;
+}
+h4{
+    color: var(--white);
+font-family: 'Big Shoulders Display';
+font-size: 50px;
+font-style: normal;
+font-weight: 900;
+line-height: 45px; /* 90% */
+text-transform: uppercase;
+margin-top: 48px;
+}
+h2{
+    color: var(--yellow);
+font-family: 'Big Shoulders Display';
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 32px; /* 100% */
+text-transform: uppercase;
+margin-top: 48px;
+}
+h3{
+    color: var(--white);
+font-family: 'Outfit';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 155.556% */
+margin-top: 20px;
+}
+footer{
+    width: 100%;
+height: 336px;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 48px 32px ;
+background-color: var(--yellow);
+}
+.ooo{
+    display: flex;
+width: 311px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 38px;
+}
+.fb,.tw,.in{
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    margin-top: 24px;
+}
+.tw1,.fb1,.in1{
+    color: var(--yellow);
+    transition: all 0.5s;
+    cursor: pointer;;
+}
+.icons1{
+    display: flex;
+    gap: 10px;
+}
+.lizi{
+    display: flex;
+    width: 311px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 38px;
+}
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+h6{
+    color: var(--black);
+    font-family: 'Outfit';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 162.5% */
+    margin-top: 38px;
+}
+.btn1:hover{
+    background-color: var(--yellow);
+    border: 2px solid var(--yellow);
+}
+.tw1:hover,.fb1:hover,.in1:hover{
+    background-color: var(--white);
+    margin-top: -2px;
+    width: 26px;
+    margin-left: -1px;
+    border-radius: 4px;
+}
+.in:hover{
+    height: 22px;
+}

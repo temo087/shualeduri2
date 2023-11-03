@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --black: #151515  ;
+    --yellow: #D5966C ;
+    --grey:  #444444  ;
+    --white:#FFFFFF   ;
+
+}
+body{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+main{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+h1{
+    color: var(--black);
+font-family: 'Big Shoulders Display';
+font-size: 60px;
+font-style: normal;
+font-weight: 900;
+line-height: 55px; /* 91.667% */
+text-transform: uppercase;
+width: 343px;
+margin-top: 32px;
+}
+.texts{
+padding-left: 16px;
+}
+h1 span{
+    display: block;
+}
+h2{
+    color: var(--grey);
+font-family: 'Outfit';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px; /* 155.556% */
+width: 343px;
+margin-top: 32px;
+}
+.gadasvla1{
+    align-items: center;
+    gap: 0;
+    margin-top: 32px;
+}
+.real{
+    width: 375px;
+}
+.btn1{
+    width: 204px;
+    height: 72px;
+    flex-shrink: 0;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "Big Shoulders Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.636px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.ragac{
+    position: absolute;
+}
+.tavi1{
+    padding-left: 16px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+}
+.magarifoto{
+    width: 343px;
+height: 320px;
+flex-shrink: 0;
+}
+.me{
+    font-size: 50px;
+    font-size: 50px;
+    margin-top: 25px;
+}
+.miyvars{
+    font-size: 18px;
+    line-height: 28px;
+}
+.boxebi{
+    padding-left: 16px;
+    display: grid;
+    grid-template-columns: auto;
+}
+.box{
+    width: 343px;
+height: 293px;
+flex-shrink: 0;
+background-color: var(--black);
+padding: 48px 24px;
+}
+.lizi{
+    width: 295px;
+    line-height: 45px;
+    font-size: 50px;
+    color: var(--white);
+    margin: 0;
+}
+.miyvarxar{
+    width: 295px;
+    line-height: 28px;
+    font-size: 18px;
+    color: var(--white);
+    margin-top: 24px;
+}
+.siyvaruli{
+    margin-top: 32px;
+}
+.pookie,.box{
+     margin-top: 16px;
+}.fb,.tw,.in{
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    border-radius: 4px;
+}
+.tw1,.fb1,.in1{
+    color: var(--white);
+    margin-top: -2px;
+    width: 26px;
+    margin-left: -1px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.tw1{
+    margin-top: 0;
+}
+.icons1{
+    display: flex;
+    gap: 10px;
+}
+.marjvena{
+    width: 110.05px;
+    height: 40px;
+}
+footer{
+    background-color: var(--black);
+height: 336px;
+width: 100%;
+margin-top: 120px;
+}
+.ooo{
+    display: flex;
+width: 311px;
+flex-direction: column;
+justify-content: center;
+gap: 38px;
+margin-top: 48px;
+margin-left: 50%;
+transform: translateX(-50%);
+}
+.shua{
+    color: var(--white);
+font-size: 16px;
+line-height: 26px;
+}
+a{
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.btn1:hover{
+    background-color: var(--yellow);
+    border: 2px solid var(--yellow);
+}
+.tw1:hover,.fb1:hover,.in1:hover{
+    background-color: var(--yellow);
+    margin-top: -2px;
+    width: 26px;
+    margin-left: -1px;
+    border-radius: 4px;
+}
+.in:hover{
+    height: 22px;
+}

@@ -1,0 +1,290 @@
+@media(width >=768px){
+
+
+main{
+    width: 768px;
+}
+.real1{
+    width: 437px;
+height: 700px;
+flex-shrink: 0;
+background-image: url(assets/pirveli\ foto\ tab.svg);
+}
+.lol{
+    display: none;
+}
+.texts{
+    margin: 145px 0 0 389px;
+}
+h1{
+    font-size: 70px;
+    line-height: 65px; /* 92.857% */
+}
+h2{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 48px;
+}
+.gadasvla1{
+    margin-top: 48px;
+}
+.ragac{
+    margin: -72px 0px 0px 204px;
+}
+.tavi1{
+    width: 689px;
+height: 400px;
+flex-shrink: 0;
+flex-direction: row;
+}.magarifoto{
+    order: 3;
+    width: 398px;
+height: 400px;
+flex-shrink: 0;
+margin-left: 44px;
+order: 6;
+}
+.texts2{
+    padding: 24px;
+    order: -1;
+}
+.me{
+    width: 223px;
+    height: 135px;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px; 
+}
+.miyvars{
+    width: 223px;
+    height: 140px;
+    margin-top: 24px;
+}
+.boxebi{
+    height: 720px;
+    width: 768px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+padding-left: 39px;
+}
+.ehh{
+    width: 398px;
+height: 720px;
+flex-shrink: 0;
+background-image: url(assets/ehh.svg);
+}
+.siyvaruli{
+    display: none;
+}
+.pookie{
+    display: none;
+}
+.papa{
+    width: 280px;
+    height: 313px;
+    flex-shrink: 0;
+    background-image: url(assets/lol.svg);
+}
+.dedamiwa{
+    margin-left: 11px;
+}
+.box{
+    width: 280px;
+height: 396px;
+flex-shrink: 0;
+}
+.lizi{
+    width: 223px;
+    margin-top: 85px 28px 0 27px;
+}
+.miyvarxar{
+    width: 223px;
+
+    text-align: left;
+    margin-top: 24px;
+}
+footer{
+    height: 216px;
+}
+.ooo{
+    flex-direction: row;
+    width: 689px;
+height: 104px;
+flex-shrink: 0;
+margin-top: 56px;
+}.marjvena{
+    margin-left: -65px;
+    width: 110.05px;
+height: 40px;
+flex-shrink: 0;
+}
+.shua{
+    width: 281px;
+    margin-top: 0;
+    margin-left: 65px;
+}
+.icons1{
+    margin-left: 133px;
+}
+}
+
+
+@media(width >= 1440px){
+    main{
+        width: 1440px;
+    }
+    .real1{
+        width: 1275px;
+height: 800px;
+flex-shrink: 0;
+background-image: url(assets/tkbilidzili.svg);
+background-position:center;
+background-repeat: no-repeat;
+display: flex;
+    }
+    .real{
+        width: 0;
+    }
+    .zangi{
+        width: 450px;
+height: 799px;
+flex-shrink: 0;
+background-color: var(--black);
+    }
+    h1{
+    width: 514px;
+    position: absolute;
+    margin-left: -690px;
+    mix-blend-mode:exclusion;
+    color: white;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 96px;
+    line-height: 88px;
+    text-transform: uppercase;
+}
+.texts{
+flex-shrink: 0;
+}
+h2{
+    width: 350px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 22px;
+    line-height: 32px;
+    margin-left:-5px;
+}
+.gadasvla1{
+    margin-top: 64px;
+    margin-left: -5px;
+}
+.ragac{
+    margin:0 0 0 0;
+}
+.me{
+    width: 350px;
+    position:static;
+    margin: 0;
+    color: var(--Almost-Black, #151515);
+    font-feature-settings: 'clig' off, 'liga' off;
+    
+    /* Heading (M) */
+    font-family: 'Big Shoulders Display';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 100% */
+    text-transform: uppercase;
+}
+.tavi1{
+    width: 1440px;
+    justify-content: center;
+    margin-top: 180px;
+}
+.samwuxarod{
+    width: 635px;
+height: 400px;
+flex-shrink: 0;
+background-image: url(assets/yiyliyo.svg);
+order:3;
+margin-left: 98px;
+}
+.magarifoto{
+    display: none;
+}
+.miyvars{
+    width: 350px;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 32px;
+}
+.boxebi{
+    height: 720px;
+    width: 1439px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.ehh{
+    width: 635px;
+height: 720px;
+flex-shrink: 0;
+background-image: url(assets/marwyvi.svg);
+}.dedamiwa{
+    margin-left: 30px;
+}
+.papa{
+    width: 445px;
+height: 313px;
+flex-shrink: 0;
+background-image:url(assets/martlamiyvars.svg);
+}
+.box{
+    width: 445px;
+height: 377px;
+flex-shrink: 0;
+padding: 65px 47px;
+}
+.lizi{
+    position: static;
+    margin: 0;
+    width: 350px;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+.miyvarxar{
+    width: 350px;
+    font-size: 22px;
+    line-height: 32px
+}
+footer{
+    height: 244px;
+}
+.ooo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 165px;
+}
+.italia{
+    display: flex;
+width: 730px;
+height: 84px;
+justify-content: center;
+align-items: flex-start;
+gap: 140.428px;
+flex-shrink: 0;
+}
+.marjvena{
+    width: 159.572px;
+height: 58px;
+flex-shrink: 0;
+margin: 0;
+}
+.shua{
+    width: 430px;
+flex-shrink: 0;
+font-size: 18px;
+line-height: 28px;
+margin: 0;
+}
+}
